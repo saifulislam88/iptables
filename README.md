@@ -3,7 +3,7 @@
 
 ## **Interview Question**
 
-### **Q💡**.Why does iptables need both INPUT and OUTPUT rules to allow a specific service or port simultaneously between the local server and a remote IP?
+### **Q.💡**Why does iptables need both INPUT and OUTPUT rules to allow a specific service or port simultaneously between the local server and a remote IP?
 
 **Yes, both rules are needed** if you want to allow SNMP communication (both requests and responses) between your server and the remote IP **20x.4x.3x.5x**
 
