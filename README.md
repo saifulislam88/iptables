@@ -12,7 +12,7 @@
 **The OUTPUT rule allows** your server to respond or send SNMP traps to the remote host.
 
 **Without one of these rules**, the communication would be incomplete:\
-**If the INPUT rule is missing,** SNMP requests from the remote host would be blocked.
+**If the INPUT rule is missing,** SNMP requests from the remote host would be blocked.\
 **If the OUTPUT rule is missing,** SNMP responses or traps from your server would not reach the remote host.
 
 Therefore, both input and output rules are necessary for full bidirectional SNMP communication with the specified IP address.
