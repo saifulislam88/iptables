@@ -20,3 +20,6 @@
 iptables -A OUTPUT -p udp -o eno1np0 --sport 161 -d 20x.4x.3x.5x/32 --dport 1024:65535 -j ACCEPT
 iptables -A INPUT -p udp -i eno1np0 -s 20x.4x.3x.5x/32 --sport 1024:65535 --dport 161 -j ACCEPT
 ```
+
+
+### **Q.💡**What is the difference between DROP and REJECT rules in IPTables, specifically when applied to port 80 (HTTP)? How would each rule affect incoming traffic?
