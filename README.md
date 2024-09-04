@@ -9,7 +9,7 @@
 
 **Yes, both rules are needed** if you want to allow SNMP communication (both requests and responses) between your server and the remote IP 20x.4x.3x.5x\
 **The INPUT rule allows** SNMP requests from the remote host to reach your server.\
-**The OUTPUT rule allows** your server to respond or send SNMP traps to the remote host.\
+**The OUTPUT rule allows** your server to respond or send SNMP traps to the remote host.
 
 **Without one of these rules**, the communication would be incomplete:\
 **If the INPUT rule is missing,** SNMP requests from the remote host would be blocked.
